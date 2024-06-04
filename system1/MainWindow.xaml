@@ -1,12 +1,14 @@
-﻿<Window x:Class="system1.MainWindow"
+﻿<Window x:Class="LaunchApplications.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:system1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Запуск Додатків" Height="200" Width="300">
     <Grid>
-
+        <Button x:Name="LaunchNotepad" Content="Запустити Блокнот" Click="LaunchNotepad_Click" Margin="10"/>
+        <Button x:Name="LaunchCalculator" Content="Запустити Калькулятор" Click="LaunchCalculator_Click" Margin="10"/>
+        <Button x:Name="LaunchPaint" Content="Запустити Paint" Click="LaunchPaint_Click" Margin="10"/>
+        <Button x:Name="LaunchCustomApp" Content="Запустити власний додаток" Click="LaunchCustomApp_Click" Margin="10"/>
     </Grid>
 </Window>
